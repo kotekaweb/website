@@ -9,33 +9,19 @@ import { Component } from '@angular/core';
 })
 export class FooterLayout {
   menu = [
-    {
-      label: 'Home',
-      link: '/'
-    },
-    {
-      label: 'About Us',
-      link: 'about'
-    },
-    {
-      label: 'Products',
-      link: 'product'
-    },
-    {
-      label: 'Services',
-      link: 'service'
-    },
-    {
-      label: 'Portfolio',
-      link: 'portfolio'
-    },
-    {
-      label: 'Blog',
-      link: 'blog'
-    },
-    {
-      label: 'Contact',
-      link: 'contact'
-    }
+    { label: 'Home', link: '/' },
+    { label: 'About Us', link: 'about' },
+    { label: 'Products', link: 'product' },
+    { label: 'Services', link: 'service' },
+    { label: 'Portfolio', link: 'portfolio' },
+    { label: 'Blog', link: 'blog' },
+    { label: 'Contact', link: 'contact' }
+  ]
+
+  social = [
+    { icon: 'facebook', link: '' },
+    { icon: 'twitter-x', link: '' },
+    { icon: 'instagram', link: '' },
+    { icon: 'linkedin', link: '' }
   ]
 }

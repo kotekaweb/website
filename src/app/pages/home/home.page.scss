@@ -1,0 +1,47 @@
+.hero-section {
+    @apply my-10 px-4 sm:px-6 lg:px-8;
+}
+
+.hero-grid {
+    @apply grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center;
+}
+
+.hero-title {
+    @apply block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white;
+}
+
+.hero-content {
+    @apply mt-3 text-lg text-gray-800 dark:text-gray-400;
+}
+
+.hero-button-container {
+    @apply mt-7 grid gap-3 w-full sm:inline-flex;
+}
+
+.hero-button-solid {
+    @apply py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-red-700 text-white hover:bg-black disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600
+}
+
+.hero-button-outline {
+    @apply py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 hover:text-red-700 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
+}
+
+.hero-image {
+    @apply w-full h-[540px] object-cover rounded-md;
+}
+
+.hero-image-shadow {
+    @apply absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 w-full h-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-slate-800 dark:via-slate-900/0 dark:to-slate-900/0;
+}
+
+.about-section {
+    @apply px-4 py-10 sm:px-6 lg:px-8 lg:py-14;
+}
+
+.about-content-tab {
+    @apply mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2;
+}
+
+.about-title {
+    @apply text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200;
+}
