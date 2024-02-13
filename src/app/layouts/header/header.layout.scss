@@ -1,0 +1,27 @@
+header {
+    @apply sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white bg-opacity-80 backdrop-blur-md border-b border-gray-200 text-sm py-3 sm:py-0;
+}
+
+nav {
+    @apply relative max-w-screen-xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8;
+}
+
+.brand {
+    @apply flex-none text-xl font-semibold dark:text-white;
+}
+
+.menu-toggle {
+    @apply w-9 h-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600;
+}
+
+.menu-list {
+    @apply hidden overflow-hidden transition-all duration-300 basis-full grow md:block;
+}
+
+.menu-item {
+    @apply font-normal text-gray-500 hover:font-semibold hover:text-red-700 sm:py-6;
+}
+
+.menu-button {
+    @apply flex items-center gap-x-2 font-bold text-red-700 hover:text-red-500 sm:border-s sm:border-gray-300 sm:my-6 sm:ps-6;
+}
